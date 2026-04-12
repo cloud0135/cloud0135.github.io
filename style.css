@@ -15,6 +15,9 @@ h2 {
 
 div{
     box-sizing: border-box;
-    border: 6px solid white;
+    border: 30px solid white;
+    background-color: white;
     margin: 20px;
+    padding: 20px;
+    
 }
