@@ -14,5 +14,7 @@ h2 {
 }    
 
 div{
+    box-sizing: border-box;
+    border: 6px solid white;
     margin: 20px;
 }
