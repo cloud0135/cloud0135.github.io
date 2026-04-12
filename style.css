@@ -20,7 +20,6 @@ h2 {
 }    
 
 div.요약카드 { 
-    display:flex;
     display: inline-block;
     box-sizing: border-box;
     border: 40px solid white;
@@ -30,12 +29,15 @@ div.요약카드 {
 }
 
 div.상세정보 {
-    display:flex;
     display: block;
     box-sizing: border-box;
     border: 40px solid white;
     background-color: white;
     border-radius: 4%;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    
+}
+
+.container {
+    display: flex;
+    gap: 15px;
 }
