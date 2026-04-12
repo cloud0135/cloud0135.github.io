@@ -1,5 +1,6 @@
 body{
-    background-color: rgb(233, 233, 233); }
+    background-color: rgb(225, 225, 237);
+    margin: 30px; }
 
 img { 
     object-fit: contain;
@@ -7,7 +8,7 @@ img {
     height: 200px;
     border-radius: 14%;
     border: 5px solid white;
-    border-color: rgb(233, 233, 233);
+    border-color: rgb(225, 225, 237);
     margin-bottom: 15px;}
 
 
@@ -20,7 +21,7 @@ h1.상세정보 {
 }
 
 h2 {
-    color: blue;
+    color: #3a3ad9;
     font-size: 16px;
 }    
 
