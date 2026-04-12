@@ -1,11 +1,7 @@
 body{
     background-color: rgb(240, 242, 242);
     margin: 30px; }
-    
-.container {
-  display: flex;
-  gap: 30px;
-}
+
 
 img { 
     object-fit: contain;
@@ -30,7 +26,7 @@ h2 {
 }    
 
 div.요약카드 { 
-    display: inline-block;
+    display: inline-block flex;
     box-sizing: border-box;
     border: 40px solid white;
     background-color: white;
@@ -39,7 +35,7 @@ div.요약카드 {
 }
 
 div.상세정보 {
-    display: block;
+    display: block flex;
     box-sizing: border-box;
     border: 40px solid white;
     background-color: white;
