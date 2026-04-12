@@ -1,8 +1,18 @@
-h1
-{
-	color: brown;
+body{
+    background-color: lightgray;
 }
 
-h2{
+
+h1 { 
+    color:brown;
+    font-size: 20px;
+}
+
+h2 {
     color: blue;
+    font-size: 16px;
+}    
+
+div{
+    margin: 20px;
 }
