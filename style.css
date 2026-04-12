@@ -11,8 +11,13 @@ img {
     margin-bottom: 15px;}
 
 
-h1 { color:brown;
-    font-size: 20px;}
+h1.요약카드 { 
+ font-size: 20px;}
+
+h1.상세정보 {
+    font-size: 30px;
+    color: black;
+}
 
 h2 {
     color: blue;
