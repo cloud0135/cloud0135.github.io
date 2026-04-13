@@ -2,6 +2,9 @@ body{
     background-color: rgb(240, 242, 242);
     margin: 30px; }
 
+.container {
+   display: flex;}
+
 
 img { 
     object-fit: contain;
@@ -26,6 +29,7 @@ h2 {
 }    
 
 div.요약카드 { 
+    justify-content: space-between;
     display: inline-block;
     box-sizing: border-box;
     border: 40px solid white;
@@ -35,6 +39,7 @@ div.요약카드 {
 }
 
 div.상세정보 {
+    justify-content: space-between;
     display: block;
     box-sizing: border-box;
     border: 40px solid white;
