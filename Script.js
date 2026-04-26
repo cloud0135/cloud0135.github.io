@@ -1,1 +1,2 @@
-document.write('<h1>멋쟁이사자처럼 프론트엔드 3주차 과제</h1>');
+document.write('<p>아기 사자 추가</p>');
+document.write('<p>마지막 아기 사자 삭제</p>');
