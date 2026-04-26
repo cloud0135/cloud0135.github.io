@@ -24,14 +24,6 @@ body {
   margin-bottom: 50px;
 }
 
-.test {
-  background-color: #fff;
-  border-radius: 12px;
-  padding: 20px;
-  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
-  text-align: center;
-}
-
 .one, .two, .three, .four, .five, .six, .seven, .eight, .nine {
   background-color: white;
   border-radius: 14px;
