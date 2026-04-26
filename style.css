@@ -11,6 +11,15 @@ body {
   line-height: 1.5;
 }
 
+.button {
+  display: inline;
+  background-color: white;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+  padding-bottom: 18px;
+}
+
 .container {
   width: 90%;
   max-width: 1200px;
