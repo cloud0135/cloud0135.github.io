@@ -13,3 +13,5 @@ cancelBtn.addEventListener("click", function () {
 form.addEventListener("submit", function(e) {
   e.preventDefault();
 });
+
+localStorage.setItem("nickname", nickname);
