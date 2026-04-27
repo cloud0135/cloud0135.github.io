@@ -23,24 +23,41 @@ body {
 
 .btn {
   display: flex;
-  gap: 10px;
-  margin-bottom: 20px;
+  gap: 12px;
+  margin-bottom: 24px;
 }
 
 .btn button {
+  width: auto;
+  height: auto;
   padding: 10px 16px;
-  border: none;
   border-radius: 8px;
+  border: none;
   cursor: pointer;
 }
 
 .btn1 {
-  background: #ff6b3d;
+  background-color: #ff6433;
   color: white;
 }
 
 .btn2 {
-  background: #ccc;
+  background-color: #ccc;
+  color: black;
+}
+
+.hidden {
+  display: none;
+}
+
+#babyLionForm {
+  width: 520px;
+  padding: 24px;
+  background-color: white;
+  border-radius: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
 }
 
 #babyLionForm {
