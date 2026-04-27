@@ -21,14 +21,26 @@ body {
   display: none;
 }
 
-.btn{
+.btn {
   display: flex;
-  background-color: white;
-  border-radius: 14px;
-  gap: 8px;
-  padding-bottom: 16px;
-  overflow: hidden;
-  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.btn button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.btn1 {
+  background: #ff6b3d;
+  color: white;
+}
+
+.btn2 {
+  background: #ccc;
 }
 
 .card-wrap {
