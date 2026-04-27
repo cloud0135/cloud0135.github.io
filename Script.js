@@ -9,3 +9,5 @@ addBtn.addEventListener("click", function () {
 cancelBtn.addEventListener("click", function () {
   form.classList.add("hidden");
 });
+
+classList.toggle("hidden")
