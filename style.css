@@ -43,6 +43,32 @@ body {
   background: #ccc;
 }
 
+#babyLionForm {
+  margin-top: 20px;
+  padding: 20px;
+  background: #f8f8f8;
+  border-radius: 12px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#babyLionForm input,
+#babyLionForm select,
+#babyLionForm textarea {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+#babyLionForm button {
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
 .card-wrap {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -157,4 +183,38 @@ body {
   .one1 h1, .two2 h1, .three3 h1, .four4 h1, .five5 h1, .six6 h1, .seven7 h1, .eight8 h1, .nine9 h1 {
     font-size: 28px;
   }
+}
+
+#cardArea {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin-top: 30px;
+}
+
+.summary-card {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.summary-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.summary-card h3 {
+  margin: 10px;
+}
+
+.summary-card .track {
+  color: blue;
+  margin: 0 10px;
+}
+
+.summary-card p {
+  margin: 10px;
+  font-size: 14px;
 }
