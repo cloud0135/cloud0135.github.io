@@ -1,4 +1,11 @@
-document.write('<p>아기 사자 추가</p>');
-document.write('<p>마지막 아기 사자 삭제</p>');
+const addBtn = document.querySelector("#addBabyLionBtn");
+const form = document.querySelector("#babyLionForm");
+const cancelBtn = document.querySelector("#cancelBtn");
 
-var num = 10;
+addBtn.addEventListener("click", function () {
+  form.classList.toggle("hidden");
+});
+
+cancelBtn.addEventListener("click", function () {
+  form.classList.add("hidden");
+});
