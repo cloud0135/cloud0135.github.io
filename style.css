@@ -12,14 +12,11 @@ body {
 }
 
 .button {
-  display: flex;
-  justify-items: center;
-  grid-template-columns: (2, 1fr);
-  background-color: white;
-  border-radius: 15px;
-  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
-  padding-bottom: 18px;
-  margin: 10px;
+  background: white;
+  padding: 28px;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  max-width: 420px;
 }
 
 .container {
