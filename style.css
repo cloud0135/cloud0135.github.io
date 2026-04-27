@@ -17,6 +17,10 @@ body {
   margin: 30px auto 60px;
 }
 
+.hidden {
+  display: none;
+}
+
 .btn{
   display: flex;
   background-color: white;
