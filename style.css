@@ -218,3 +218,28 @@ body {
   margin: 10px;
   font-size: 14px;
 }
+
+#detailArea {
+  margin-top: 40px;
+}
+
+.detail-card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.detail-card h2 {
+  margin-bottom: 10px;
+}
+
+.detail-card h4 {
+  margin-top: 15px;
+}
+
+.detail-card ul {
+  padding-left: 20px;
+}
