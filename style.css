@@ -17,6 +17,12 @@ body {
   margin: 30px auto 60px;
 }
 
+.btn{
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
 .card-wrap {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
