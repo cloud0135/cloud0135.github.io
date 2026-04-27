@@ -1,11 +1,11 @@
 * {
   box-sizing: border-box;
-  margin: 0;
+  margin: 20px;
   padding: 0;
 }
 
 body {
-  background-color: #4f4f53;
+  background-color: #f0f0f3;
   font-family: Arial, sans-serif;
   color: #222;
   line-height: 1.5;
