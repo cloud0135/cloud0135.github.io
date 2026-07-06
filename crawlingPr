@@ -2,8 +2,7 @@ import requests
 import csv
 from bs4 import BeautifulSoup
 
-base_url = "https://quotes.toscrape.com"
-
+url0 = "https://quotes.toscrape.com"
 url1 = "https://quotes.toscrape.com/tag/love/"
 url2 = "https://quotes.toscrape.com/tag/love/page/2/"
 
@@ -25,7 +24,7 @@ for url in urls:
 
         about_link = quote.select_one("a").get("href")
 
-        author_req = requests.get(base_url + about_link)
+        author_req = requests.get(url0 + about_link)
         author_soup = BeautifulSoup(author_req.text, "html.parser")
 
         birth_date = author_soup.select_one("span.author-born-date").get_text(strip=True)
