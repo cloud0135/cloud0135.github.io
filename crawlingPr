@@ -22,9 +22,9 @@ for url in urls:
         text = quote.select_one("span.text").get_text(strip=True)
         author = quote.select_one("small.author").get_text(strip=True)
 
-        about_link = quote.select_one("a").get("href")
+        about = quote.select_one("a").get("href")
 
-        author_req = requests.get(url0 + about_link)
+        author_req = requests.get(about)
         author_soup = BeautifulSoup(author_req.text, "html.parser")
 
         birth_date = author_soup.select_one("span.author-born-date").get_text(strip=True)
