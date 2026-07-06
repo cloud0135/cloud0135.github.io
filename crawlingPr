@@ -9,9 +9,8 @@ print("상태코드:", req.status_code)
 
 soup = BeautifulSoup(req.text, "html.parser")
 
-# 명언 목록 추출 (F12로 클래스 확인 후 ??? 채우기)
-quotes = soup.select("div.quote")
-print("찾은 명언 수:", len(quotes))
+# 명언 목록 
+quotes = soup.select("div.col-md-8")
 
 output_file = open("quotes.csv", "w", encoding="utf-8-sig", newline="")
 writer = csv.writer(output_file)
