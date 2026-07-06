@@ -9,7 +9,7 @@ url2 = "https://quotes.toscrape.com/tag/love/page/2/"
 
 urls = [url1, url2]
 
-# 1. CSV 파일 만들기
+# CSV
 output_file = open("love_quotes.csv", "w", encoding="utf-8-sig", newline="")
 writer = csv.writer(output_file)
 writer.writerow(["명언", "저자", "저자 생년월일", "저자 출생지"])
@@ -37,7 +37,7 @@ for url in urls:
 output_file.close()
 
 
-# 2. CSV 파일을 HTML 파일로 변환하기
+# HTML로 변환
 input_file = open("love_quotes.csv", "r", encoding="utf-8-sig")
 reader = csv.reader(input_file)
 
