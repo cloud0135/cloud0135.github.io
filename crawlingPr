@@ -1,0 +1,28 @@
+import requests
+import csv
+from bs4 import BeautifulSoup
+
+url = "https://quotes.toscrape.com/"
+
+req = requests.get(url)
+print("상태코드:", req.status_code)
+
+soup = BeautifulSoup(req.text, "html.parser")
+
+# 명언 목록 추출 (F12로 클래스 확인 후 ??? 채우기)
+quotes = soup.select("div.quote")
+print("찾은 명언 수:", len(quotes))
+
+output_file = open("quotes.csv", "w", encoding="utf-8-sig", newline="")
+writer = csv.writer(output_file)
+writer.writerow(["명언", "저자", "저자 생년월일", "저자 출생지"])
+
+for quote in quotes:
+    text = quote.select_one("span.text").get_text(strip=True)
+    author = quote.select_one("small.author").get_text(strip=True)
+    birth_date = quote.select_one("span.author-born-date").get_text(strip=True)
+    birth_place = quote.select_one("span.author-born-location").get_text(strip=True)
+    writer.writerow([text, author, birth_date, birth_place])
+
+output_file.close()
+print("quotes.csv 저장 완료")
